@@ -30,3 +30,7 @@ D:\Projects\Git\SimpleApi\SimpleApi\obj\Debug\net8.0\refint\SimpleApi.dll
 D:\Projects\Git\SimpleApi\SimpleApi\obj\Debug\net8.0\SimpleApi.pdb
 D:\Projects\Git\SimpleApi\SimpleApi\obj\Debug\net8.0\SimpleApi.genruntimeconfig.cache
 D:\Projects\Git\SimpleApi\SimpleApi\obj\Debug\net8.0\ref\SimpleApi.dll
+D:\Projects\Git\SimpleApi\SimpleApi\bin\Debug\net8.0\SimpleBL.dll
+D:\Projects\Git\SimpleApi\SimpleApi\bin\Debug\net8.0\SimpleEntites.dll
+D:\Projects\Git\SimpleApi\SimpleApi\bin\Debug\net8.0\SimpleBL.pdb
+D:\Projects\Git\SimpleApi\SimpleApi\bin\Debug\net8.0\SimpleEntites.pdb

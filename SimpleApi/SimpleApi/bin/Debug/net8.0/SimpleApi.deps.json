@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "SimpleApi/1.0.0": {
         "dependencies": {
+          "SimpleBL": "1.0.0",
+          "SimpleEntites": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -60,6 +62,19 @@
             "fileVersion": "6.4.0.0"
           }
         }
+      },
+      "SimpleBL/1.0.0": {
+        "dependencies": {
+          "SimpleEntites": "1.0.0"
+        },
+        "runtime": {
+          "SimpleBL.dll": {}
+        }
+      },
+      "SimpleEntites/1.0.0": {
+        "runtime": {
+          "SimpleEntites.dll": {}
+        }
       }
     }
   },
@@ -110,6 +125,16 @@
       "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    },
+    "SimpleBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleEntites/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,0 +1,11 @@
+D:\Projects\Git\SimpleApi\SimpleEntites\bin\Debug\net8.0\SimpleEntites.deps.json
+D:\Projects\Git\SimpleApi\SimpleEntites\bin\Debug\net8.0\SimpleEntites.dll
+D:\Projects\Git\SimpleApi\SimpleEntites\bin\Debug\net8.0\SimpleEntites.pdb
+D:\Projects\Git\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.AssemblyInfoInputs.cache
+D:\Projects\Git\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.AssemblyInfo.cs
+D:\Projects\Git\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.csproj.CoreCompileInputs.cache
+D:\Projects\Git\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.dll
+D:\Projects\Git\SimpleApi\SimpleEntites\obj\Debug\net8.0\refint\SimpleEntites.dll
+D:\Projects\Git\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.pdb
+D:\Projects\Git\SimpleApi\SimpleEntites\obj\Debug\net8.0\ref\SimpleEntites.dll

@@ -3,27 +3,47 @@
   "WorkspaceRootPath": "D:\\Projects\\Git\\SimpleApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|d:\\projects\\git\\simpleapi\\simpleapi\\controllers\\simplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\controllers\\simplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|d:\\projects\\git\\simpleapi\\simpleapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|d:\\projects\\git\\simpleapi\\simpleapi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|d:\\projects\\git\\simpleapi\\simplebl\\services\\indexbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|solutionrelative:simplebl\\services\\indexbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\haima.000\\AppData\\Local\\Temp\\.vsdbgsrc\\846826d7c8de5cd89a7505402eb088eef25b7a110076fce4d96be74ca3bfd653\\ActionEndpointFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|d:\\projects\\git\\simpleapi\\simpleapi\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\controllers\\indexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|d:\\projects\\git\\simpleapi\\simplebl\\services\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|solutionrelative:simplebl\\services\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|d:\\projects\\git\\simpleapi\\simplebl\\interfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|solutionrelative:simplebl\\interfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|d:\\projects\\git\\simpleapi\\simplebl\\interfaces\\iindexbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|solutionrelative:simplebl\\interfaces\\iindexbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|d:\\projects\\git\\simpleapi\\simpleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|d:\\projects\\git\\simpleapi\\simpleapi\\simpleapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\simpleapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798CB97E-0570-4413-A382-FBF662A26BA7}|SimpleEntites\\SimpleEntites.csproj|d:\\projects\\git\\simpleapi\\simpleentites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{798CB97E-0570-4413-A382-FBF662A26BA7}|SimpleEntites\\SimpleEntites.csproj|solutionrelative:simpleentites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|d:\\projects\\git\\simpleapi\\simpleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\haima.000\\AppData\\Local\\Temp\\.vsdbgsrc\\846826d7c8de5cd89a7505402eb088eef25b7a110076fce4d96be74ca3bfd653\\ActionEndpointFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -105,33 +125,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "SimpleApi\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "SimpleApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "DocumentIndex": 3,
+              "Title": "UserBL.cs",
+              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\Services\\UserBL.cs",
+              "RelativeDocumentMoniker": "SimpleBL\\Services\\UserBL.cs",
+              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\Services\\UserBL.cs",
+              "RelativeToolTip": "SimpleBL\\Services\\UserBL.cs",
+              "ViewState": "AQIAABIAAABgZmZmZuYjwB0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:39:26.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IndexController.cs",
+              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Controllers\\IndexController.cs",
+              "RelativeDocumentMoniker": "SimpleApi\\Controllers\\IndexController.cs",
+              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Controllers\\IndexController.cs",
+              "RelativeToolTip": "SimpleApi\\Controllers\\IndexController.cs",
+              "ViewState": "AQIAAAgAAAAAEgAAAADYvxcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T17:07:51.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\User.cs",
-              "RelativeDocumentMoniker": "SimpleApi\\User.cs",
-              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\User.cs",
-              "RelativeToolTip": "SimpleApi\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T17:03:18.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "ActionEndpointFactory.cs",
               "DocumentMoniker": "C:\\Users\\haima.000\\AppData\\Local\\Temp\\.vsdbgsrc\\846826d7c8de5cd89a7505402eb088eef25b7a110076fce4d96be74ca3bfd653\\ActionEndpointFactory.cs",
               "ToolTip": "C:\\Users\\haima.000\\AppData\\Local\\Temp\\.vsdbgsrc\\846826d7c8de5cd89a7505402eb088eef25b7a110076fce4d96be74ca3bfd653\\ActionEndpointFactory.cs [Read Only]",
@@ -143,32 +163,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SimpleController.cs",
-              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Controllers\\SimpleController.cs",
-              "RelativeDocumentMoniker": "SimpleApi\\Controllers\\SimpleController.cs",
-              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Controllers\\SimpleController.cs",
-              "RelativeToolTip": "SimpleApi\\Controllers\\SimpleController.cs",
-              "ViewState": "AQIAABMAAABQmZmZmRkwwBwAAAAIAAAA",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SimpleApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SimpleApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAWwEIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T15:54:41.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Program.cs",
               "RelativeDocumentMoniker": "SimpleApi\\Program.cs",
               "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\Program.cs",
               "RelativeToolTip": "SimpleApi\\Program.cs",
-              "ViewState": "AQIAAAwAAAAwMzMzMzMiwBAAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T15:54:01.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserBL.cs",
+              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\Interfaces\\IUserBL.cs",
+              "RelativeDocumentMoniker": "SimpleBL\\Interfaces\\IUserBL.cs",
+              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\Interfaces\\IUserBL.cs",
+              "RelativeToolTip": "SimpleBL\\Interfaces\\IUserBL.cs",
+              "ViewState": "AQIAAAUAAADAmZmZmVkhwA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T17:02:39.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IIndexBL.cs",
+              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\Interfaces\\IIndexBL.cs",
+              "RelativeDocumentMoniker": "SimpleBL\\Interfaces\\IIndexBL.cs",
+              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\Interfaces\\IIndexBL.cs",
+              "RelativeToolTip": "SimpleBL\\Interfaces\\IIndexBL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T17:14:45.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IndexBL.cs",
+              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\Services\\IndexBL.cs",
+              "RelativeDocumentMoniker": "SimpleBL\\Services\\IndexBL.cs",
+              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\Services\\IndexBL.cs",
+              "RelativeToolTip": "SimpleBL\\Services\\IndexBL.cs",
+              "ViewState": "AQIAAAgAAACAMzMzM3MlwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T17:13:59.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleEntites\\User.cs",
+              "RelativeDocumentMoniker": "SimpleEntites\\User.cs",
+              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleEntites\\User.cs",
+              "RelativeToolTip": "SimpleEntites\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:26:17.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SimpleApi",
+              "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\SimpleApi.csproj",
+              "RelativeDocumentMoniker": "SimpleApi\\SimpleApi.csproj",
+              "ToolTip": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\SimpleApi.csproj",
+              "RelativeToolTip": "SimpleApi\\SimpleApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-07T16:41:07.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\Git\\SimpleApi\\SimpleApi\\appsettings.json",
               "RelativeDocumentMoniker": "SimpleApi\\appsettings.json",

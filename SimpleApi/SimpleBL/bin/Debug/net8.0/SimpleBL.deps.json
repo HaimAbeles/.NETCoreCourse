@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SimpleBL/1.0.0": {
+        "dependencies": {
+          "SimpleEntites": "1.0.0"
+        },
+        "runtime": {
+          "SimpleBL.dll": {}
+        }
+      },
+      "SimpleEntites/1.0.0": {
+        "runtime": {
+          "SimpleEntites.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleEntites/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

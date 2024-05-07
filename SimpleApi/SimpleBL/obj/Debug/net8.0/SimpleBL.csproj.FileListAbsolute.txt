@@ -1,0 +1,15 @@
+D:\Projects\Git\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleBL.deps.json
+D:\Projects\Git\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleBL.dll
+D:\Projects\Git\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleBL.pdb
+D:\Projects\Git\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleEntites.dll
+D:\Projects\Git\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleEntites.pdb
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.csproj.AssemblyReference.cache
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.AssemblyInfoInputs.cache
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.AssemblyInfo.cs
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.csproj.CoreCompileInputs.cache
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.csproj.Up2Date
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.dll
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\refint\SimpleBL.dll
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.pdb
+D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\ref\SimpleBL.dll
