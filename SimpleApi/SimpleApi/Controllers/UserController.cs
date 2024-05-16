@@ -92,8 +92,22 @@ namespace SimpleApi.Controllers
         {
             try
             {
-                List<string> names = _userBL.GetAllUserNaems();
+                List<string> names = _userBL.GetAllUserNames();
                 return Ok(names);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Test()
+        {
+            try
+            {
+                User users = _userBL.Test();
+                return Ok(users);
             }
             catch (Exception ex)
             {

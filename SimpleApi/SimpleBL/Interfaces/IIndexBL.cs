@@ -9,5 +9,6 @@ namespace SimpleBL.Interfaces
     public interface IIndexBL
     {
         int GetIndex();
+        int GetMinPrice();
     }
 }

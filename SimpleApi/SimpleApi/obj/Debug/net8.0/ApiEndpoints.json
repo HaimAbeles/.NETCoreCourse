@@ -10,6 +10,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SimpleApi.Controllers.IndexController",
+    "Method": "GetMinPrice",
+    "RelativePath": "api/Index/GetMinPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SimpleApi.Controllers.UserController",
     "Method": "AddUserName",
     "RelativePath": "api/User/AddUserName",
@@ -85,6 +95,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleApi.Controllers.UserController",
+    "Method": "Test",
+    "RelativePath": "api/User/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

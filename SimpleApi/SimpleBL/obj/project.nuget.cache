@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "U1PHv+oGn4kJWrHjr5CLa6KAYMsq/2/nuPGXBoEZsB/OZunSI/VsRlL7Z+o+XpqTgdNoMins0i/V+OrOjffV5w==",
+  "dgSpecHash": "tOGco6Osniw1yygkNR/mjgz8w1coOVFM9PJyk7RooZflDEwsNEY+b8asIXN77RFV6bfXUqYfMG71NvY8d23JWQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Git\\SimpleApi\\SimpleBL\\SimpleBL.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleBL\\SimpleBL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

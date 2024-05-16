@@ -5,12 +5,35 @@ namespace SimpleBL.Services
 {
     public class UserBL : IUserBL
     {
-        private static List<string> names = new List<string>()
+        private static List<User> users = new List<User>();
+
+        public UserBL()
         {
-            "Haim1",
-            "Haim2",
-            "Haim3",
-        };
+            users.Add(new User()
+            {
+                Id = 1,
+                userName = "Haim",
+                classId = 1,
+            });
+            users.Add(new User()
+            {
+                Id = 2,
+                userName = "Yosef",
+                classId = 1,
+            });
+            users.Add(new User()
+            {
+                Id = 3,
+                userName = "Moshe",
+                classId = 2,
+            });
+            users.Add(new User()
+            {
+                Id = 4,
+                userName = "Simcha",
+                classId = 2,
+            });
+        }
 
         public string GetUserFirstName()
         {
@@ -19,22 +42,29 @@ namespace SimpleBL.Services
 
         public string GetUserFirstNameByIdQuery(string id)
         {
-            return names[int.Parse(id) - 1];
+            return users[int.Parse(id) - 1].userName;
         }
 
         public string GetUserFirstNameByIdRoute(string id)
         {
-            return names[int.Parse(id) - 1];
+            return users[int.Parse(id) - 1].userName;
         }
 
-        public List<string> GetAllUserNaems() 
+        public List<string> GetAllUserNames()
         {
-            return names;
+            List<string> list = new List<string>();
+            list = users.Select(x => x.userName).ToList();
+            return list;
         }
 
         public void AddUserName(User user)
         {
-            names.Add(user.userName);
+            users.Add(user);
+        }
+
+        public User Test()
+        {
+            return users.SingleOrDefault(x => x.Id == 1);
         }
     }
 }

@@ -13,3 +13,18 @@ D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.dll
 D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\refint\SimpleBL.dll
 D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.pdb
 D:\Projects\Git\SimpleApi\SimpleBL\obj\Debug\net8.0\ref\SimpleBL.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleBL.deps.json
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleBL.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleBL.pdb
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleEntites.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\bin\Debug\net8.0\SimpleEntites.pdb
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.AssemblyInfo.cs
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.csproj.Up2Date
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\refint\SimpleBL.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\SimpleBL.pdb
+C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleBL\obj\Debug\net8.0\ref\SimpleBL.dll

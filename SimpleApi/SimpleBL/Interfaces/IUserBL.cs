@@ -12,7 +12,8 @@ namespace SimpleBL.Interfaces
         string GetUserFirstName();
         string GetUserFirstNameByIdQuery(string id);
         string GetUserFirstNameByIdRoute(string id);
-        List<string> GetAllUserNaems();
+        List<string> GetAllUserNames();
         void AddUserName(User user);
+        User Test();
     }
 }

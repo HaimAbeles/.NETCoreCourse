@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleApi", "SimpleApi\SimpleApi.csproj", "{A069EFC2-DF53-4DE7-A166-A58EA33313B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEntites", "SimpleEntites\SimpleEntites.csproj", "{798CB97E-0570-4413-A382-FBF662A26BA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEntites", "SimpleEntites\SimpleEntites.csproj", "{798CB97E-0570-4413-A382-FBF662A26BA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBL", "SimpleBL\SimpleBL.csproj", "{723608F9-B8BB-4F82-A79A-016D0D90387C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleBL", "SimpleBL\SimpleBL.csproj", "{723608F9-B8BB-4F82-A79A-016D0D90387C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDB", "SimpleDL\SimpleDB.csproj", "{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{723608F9-B8BB-4F82-A79A-016D0D90387C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{723608F9-B8BB-4F82-A79A-016D0D90387C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{723608F9-B8BB-4F82-A79A-016D0D90387C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

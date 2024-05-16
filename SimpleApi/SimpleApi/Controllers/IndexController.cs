@@ -29,5 +29,19 @@ namespace SimpleApi.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
+
+        [HttpGet]
+        public IActionResult GetMinPrice() 
+        { 
+            try
+            {
+                int minPrice = _indexBL.GetMinPrice();
+                return Ok(minPrice);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
     }
 }
