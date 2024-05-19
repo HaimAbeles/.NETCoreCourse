@@ -10,6 +10,12 @@ namespace SimpleEntites
     {
         public Price Price { get; set; }
         public bool boolTest { get; set; }
+        public ConnectionStrings ConnectionStrings { get; set; }
+    }
+
+    public class ConnectionStrings
+    {
+        public string Simple { get; set; }
     }
 
     public class Price

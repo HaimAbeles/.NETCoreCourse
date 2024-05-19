@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using SimpleBL;
 using SimpleBL.Interfaces;
-using SimpleBL.Services;
-using SimpleEntites;
+using SimpleDB.EF.Models;
 
 namespace SimpleApi.Controllers
 {
@@ -17,29 +15,14 @@ namespace SimpleApi.Controllers
             _userBL = userBL;
         }
 
-
-        [HttpGet]
-        public IActionResult GetUserFirstName()
-        {
-            try
-            {
-                string name = _userBL.GetUserFirstName();
-                return Ok(name);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-            }
-        }
-
         //http:localhost:111/api/simple/GetUserFirstNameByIdQuery?id=2
         [HttpGet]
         public IActionResult GetUserFirstNameByIdQuery([FromQuery(Name = "id")] string id)
         {
             try
             {
-                string name = _userBL.GetUserFirstNameByIdQuery(id);
-                return Ok(name);
+                User user = _userBL.GetUserFirstNameByIdQuery(id);
+                return Ok(user);
             }
             catch(Exception ex)
             {
@@ -49,12 +32,12 @@ namespace SimpleApi.Controllers
 
         //http:localhost:111/api/simple/GetUserFirstNameByIdRoute/2
         [HttpGet("{id?}")]
-        public IActionResult GetUserFirstNameByIdRoute([FromRoute] string id)
+        public IActionResult GetUserByIdRoute([FromRoute] string id)
         {
             try
             {
-                string name = _userBL.GetUserFirstNameByIdRoute(id);
-                return Ok(name);
+                User user = _userBL.GetUserByIdRoute(id);
+                return Ok(user);
             }
             catch (Exception ex)
             {
@@ -88,12 +71,12 @@ namespace SimpleApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllUserNaems()
+        public IActionResult GetAllUsers()
         {
             try
             {
-                List<string> names = _userBL.GetAllUserNames();
-                return Ok(names);
+                List<User> users = _userBL.GetAllUsers();
+                return Ok(users);
             }
             catch (Exception ex)
             {
@@ -101,15 +84,29 @@ namespace SimpleApi.Controllers
             }
         }
 
-        [HttpGet]
-        public IActionResult Test()
+        [HttpGet("{id?}")]
+        public IActionResult GetUsersByClassId([FromRoute] string id)
         {
             try
             {
-                User users = _userBL.Test();
+                List<User> users = _userBL.GetUsersByClassId(id);
                 return Ok(users);
             }
-            catch (Exception ex)
+            catch(Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public IActionResult UpdateUser(User user) 
+        {
+            try
+            {
+                _userBL.UpdateUser(user);
+                return Ok();
+            }
+            catch(Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }

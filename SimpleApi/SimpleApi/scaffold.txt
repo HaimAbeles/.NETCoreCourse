@@ -2,5 +2,5 @@ Scaffold-DbContext 'Data Source=CHAIM-LAP\HAIMABELESDB;Initial Catalog=Simple;In
 
 --Microsoft.EntityFrameworkCore.SqlServer
 --Microsoft.EntityFrameworkCore
---Microsoft.EntityFrameworkCore.SqlServer.Tools
---Microsoft.EntityFrameworkCore.SqlServer.Design
+--Microsoft.EntityFrameworkCore.Tools
+--Microsoft.EntityFrameworkCore.Design

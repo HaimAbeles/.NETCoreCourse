@@ -1,4 +1,5 @@
-﻿using SimpleEntites;
+﻿using SimpleDB.EF.Models;
+using SimpleEntites;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,11 @@ namespace SimpleBL.Interfaces
 {
     public interface IUserBL
     {
-        string GetUserFirstName();
-        string GetUserFirstNameByIdQuery(string id);
-        string GetUserFirstNameByIdRoute(string id);
-        List<string> GetAllUserNames();
+        User GetUserFirstNameByIdQuery(string id);
+        User GetUserByIdRoute(string id);
+        List<User> GetAllUsers();
         void AddUserName(User user);
-        User Test();
+        List<User> GetUsersByClassId(string id);
+        void UpdateUser(User user);
     }
 }

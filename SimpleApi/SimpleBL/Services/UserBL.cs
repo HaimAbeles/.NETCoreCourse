@@ -1,70 +1,46 @@
 ﻿using SimpleBL.Interfaces;
+using SimpleDB.EF.Models;
+using SimpleDB.Interfaces;
 using SimpleEntites;
 
 namespace SimpleBL.Services
 {
     public class UserBL : IUserBL
     {
-        private static List<User> users = new List<User>();
-
-        public UserBL()
+        private readonly IUserDB _userDB;
+        public UserBL(IUserDB userDB)
         {
-            users.Add(new User()
-            {
-                Id = 1,
-                userName = "Haim",
-                classId = 1,
-            });
-            users.Add(new User()
-            {
-                Id = 2,
-                userName = "Yosef",
-                classId = 1,
-            });
-            users.Add(new User()
-            {
-                Id = 3,
-                userName = "Moshe",
-                classId = 2,
-            });
-            users.Add(new User()
-            {
-                Id = 4,
-                userName = "Simcha",
-                classId = 2,
-            });
+            _userDB = userDB;
         }
 
-        public string GetUserFirstName()
+        public User GetUserFirstNameByIdQuery(string id)
         {
-            return "Haim";
+            return _userDB.GetUserById(id);
         }
 
-        public string GetUserFirstNameByIdQuery(string id)
+        public User GetUserByIdRoute(string id)
         {
-            return users[int.Parse(id) - 1].userName;
+            return _userDB.GetUserById(id);
         }
 
-        public string GetUserFirstNameByIdRoute(string id)
+        public List<User> GetAllUsers()
         {
-            return users[int.Parse(id) - 1].userName;
-        }
-
-        public List<string> GetAllUserNames()
-        {
-            List<string> list = new List<string>();
-            list = users.Select(x => x.userName).ToList();
-            return list;
+            return _userDB.GetAllUsers();
         }
 
         public void AddUserName(User user)
         {
-            users.Add(user);
+            _userDB.AddUserName(user);
         }
 
-        public User Test()
+        public List<User> GetUsersByClassId(string id) 
         {
-            return users.SingleOrDefault(x => x.Id == 1);
+            return _userDB.GetUsersByClassId(id);
+        }
+
+        public void UpdateUser(User user)
+        {
+            _userDB.UpdateUser(user);
         }
     }
 }

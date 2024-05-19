@@ -1595,6 +1595,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.Extensions.Options": "8.0.2",
+          "SimpleDB": "1.0.0",
           "SimpleEntites": "1.0.0"
         },
         "compile": {
@@ -4586,11 +4587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleApi\\SimpleApi.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\SimpleApi.csproj",
       "projectName": "SimpleApi",
-      "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleApi\\SimpleApi.csproj",
+      "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\SimpleApi.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleApi\\obj\\",
+      "outputPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4611,14 +4612,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleBL\\SimpleBL.csproj": {
-              "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleBL\\SimpleBL.csproj"
+            "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\SimpleBL.csproj": {
+              "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\SimpleBL.csproj"
             },
-            "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleDL\\SimpleDB.csproj": {
-              "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleDL\\SimpleDB.csproj"
+            "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\SimpleDB.csproj": {
+              "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\SimpleDB.csproj"
             },
-            "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj": {
-              "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj"
+            "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj": {
+              "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj"
             }
           }
         }

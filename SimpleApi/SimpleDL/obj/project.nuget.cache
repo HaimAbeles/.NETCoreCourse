@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fRExw2T0mujLSnV3ZihV4Yu05Fy7gEuPq5j2vvG8PJssEIAcnO2djHPIgFVPhAWe3+sgGb3ygUZfaJEOMZ2MCg==",
+  "dgSpecHash": "LyiLKCEvBjY5j00VlWoBtjVA5nousXoiw20jBtpgKV5cFq3KaghYA7U5PY+dTgGkFRGRnMgD1yBZpaBHSeP0sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleDL\\SimpleDB.csproj",
+  "projectFilePath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\SimpleDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

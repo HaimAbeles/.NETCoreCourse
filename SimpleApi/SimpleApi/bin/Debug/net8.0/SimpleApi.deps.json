@@ -917,6 +917,7 @@
       "SimpleBL/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Options": "8.0.2",
+          "SimpleDB": "1.0.0",
           "SimpleEntites": "1.0.0"
         },
         "runtime": {

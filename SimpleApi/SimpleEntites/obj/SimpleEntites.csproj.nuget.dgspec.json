@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj": {}
+    "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj": {
+    "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj",
         "projectName": "SimpleEntites",
-        "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj",
+        "projectPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\SimpleEntites.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\SimpleApi\\SimpleEntites\\obj\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -20,3 +20,15 @@ C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleEntites\obj\Debug\ne
 C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleEntites\obj\Debug\net8.0\refint\SimpleEntites.dll
 C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.pdb
 C:\Users\1\Desktop\תכנות חיים\.NET\SimpleApi\SimpleEntites\obj\Debug\net8.0\ref\SimpleEntites.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\bin\Debug\net8.0\SimpleEntites.deps.json
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\bin\Debug\net8.0\SimpleEntites.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\bin\Debug\net8.0\SimpleEntites.pdb
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.AssemblyInfo.cs
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.sourcelink.json
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\refint\SimpleEntites.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\SimpleEntites.pdb
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleEntites\obj\Debug\net8.0\ref\SimpleEntites.dll

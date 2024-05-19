@@ -1,6 +1,6 @@
 
 Create TABLE [USER] (
-    Id INT,
+    Id INT PRIMARY KEY IDENTITY,
     UserName VARCHAR(100),
     Password VARCHAR(100),
     Email VARCHAR(100),
