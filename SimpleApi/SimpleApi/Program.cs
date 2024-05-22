@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SimpleApi;
 using SimpleBL.Interfaces;
 using SimpleBL.Services;
 using SimpleDB.EF.Contexts;
@@ -6,7 +7,11 @@ using SimpleDB.Interfaces;
 using SimpleDB.Services;
 using SimpleEntites;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication
+    .CreateBuilder(args);
+
+
+builder.UseSerilog();
 
 builder.Services.Configure<AppSettings>(builder.Configuration);
 

@@ -1,0 +1,5 @@
+2024-05-21 20:13:47.355 +03:00 [ERR] Error on GetUserByIdRoute, Message: The input string 'fsdf' was not in a correct format., InnerException: , StackTrace:    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+   at System.Int32.Parse(String s)
+   at SimpleBL.Services.UserBL.GetUserByIdRoute(String idStr) in C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleBL\Services\UserBL.cs:line 23
+   at SimpleApi.Controllers.UserController.GetUserByIdRoute(String id) in C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleApi\Controllers\UserController.cs:line 43
+2024-05-21 20:17:45.778 +03:00 [INF] userFromClient: {"Id":1,"UserName":"Haim","Password":"string","Email":"string","Phone":"string","ClassId":0,"$type":"User"}

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using SimpleDB.EF.Contexts;
 using SimpleDB.EF.Models;
 using SimpleDB.Interfaces;
@@ -9,9 +10,11 @@ namespace SimpleDB.Services
     public class UserDB : IUserDB
     {
         private readonly SimpleContext _simpleContext;
-        public UserDB(SimpleContext simpleContext)
+        private readonly ILogger<UserDB> _logger;
+        public UserDB(SimpleContext simpleContext, ILogger<UserDB> logger)
         {
             _simpleContext = simpleContext;
+            _logger = logger;
         }
 
         public User GetUserById(string id)
@@ -50,6 +53,8 @@ namespace SimpleDB.Services
             User userFromDb = _simpleContext
                 .Users
                 .FirstOrDefault(x => x.Id == user.Id);
+
+            _logger.LogInformation("userFromClient: {@user}", user);
 
             userFromDb.UserName = user.UserName;
             _simpleContext.SaveChanges();

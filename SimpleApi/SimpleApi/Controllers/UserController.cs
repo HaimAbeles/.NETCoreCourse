@@ -9,10 +9,12 @@ namespace SimpleApi.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserBL _userBL;
+        private readonly ILogger<UserController> _logger;
 
-        public UserController(IUserBL userBL)
+        public UserController(IUserBL userBL, ILogger<UserController> logger)
         {
             _userBL = userBL;
+            _logger = logger;
         }
 
         //http:localhost:111/api/simple/GetUserFirstNameByIdQuery?id=2
@@ -26,7 +28,9 @@ namespace SimpleApi.Controllers
             }
             catch(Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                _logger.LogError($"Error on GetUserFirstNameByIdQuery, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
 
@@ -41,7 +45,9 @@ namespace SimpleApi.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                _logger.LogError($"Error on GetUserByIdRoute, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
 
@@ -55,7 +61,9 @@ namespace SimpleApi.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                _logger.LogError($"Error on AddUserName, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
 
@@ -80,7 +88,9 @@ namespace SimpleApi.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                _logger.LogError($"Error on GetAllUsers, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
 
@@ -94,7 +104,9 @@ namespace SimpleApi.Controllers
             }
             catch(Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                _logger.LogError($"Error on GetUsersByClassId, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
 
@@ -108,7 +120,9 @@ namespace SimpleApi.Controllers
             }
             catch(Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                _logger.LogError($"Error on UpdateUser, Message: {ex.Message}," +
+                    $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
     }

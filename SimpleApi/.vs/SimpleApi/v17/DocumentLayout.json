@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpleapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simplebl\\interfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|solutionrelative:simplebl\\interfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simplebl\\services\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|solutionrelative:simplebl\\services\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpledl\\interfaces\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|solutionrelative:simpledl\\interfaces\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpledl\\services\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|solutionrelative:simpledl\\services\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpleapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpleapi\\logs\\log20240521.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\logs\\log20240521.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpleapi\\serilogbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\serilogbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A069EFC2-DF53-4DE7-A166-A58EA33313B7}|SimpleApi\\SimpleApi.csproj|solutionrelative:simpleapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpledl\\ef\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|solutionrelative:simpledl\\ef\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simplebl\\interfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723608F9-B8BB-4F82-A79A-016D0D90387C}|SimpleBL\\SimpleBL.csproj|solutionrelative:simplebl\\interfaces\\iuserbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpledl\\interfaces\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|solutionrelative:simpledl\\interfaces\\iuserdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C97CDEE5-4FDD-4248-BE48-95F67EA9C7FC}|SimpleDL\\SimpleDB.csproj|c:\\users\\1\\desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.net\\.netcorecourse\\simpleapi\\simpledl\\ef\\contexts\\simplecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,7 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -153,94 +161,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "scaffold.txt",
-              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\scaffold.txt",
-              "RelativeDocumentMoniker": "SimpleApi\\scaffold.txt",
-              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\scaffold.txt",
-              "RelativeToolTip": "SimpleApi\\scaffold.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACbAAAA",
+              "DocumentIndex": 3,
+              "Title": "log20240521.txt",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\Logs\\log20240521.txt",
+              "RelativeDocumentMoniker": "SimpleApi\\Logs\\log20240521.txt",
+              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\Logs\\log20240521.txt",
+              "RelativeToolTip": "SimpleApi\\Logs\\log20240521.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAACgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-15T17:43:38.855Z"
+              "WhenOpened": "2024-05-21T16:52:27.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SimpleContext.cs",
-              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\EF\\Contexts\\SimpleContext.cs",
-              "RelativeDocumentMoniker": "SimpleDL\\EF\\Contexts\\SimpleContext.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\EF\\Contexts\\SimpleContext.cs",
-              "RelativeToolTip": "SimpleDL\\EF\\Contexts\\SimpleContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAIAxwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T15:53:45.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UserBL.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\Services\\UserBL.cs",
               "RelativeDocumentMoniker": "SimpleBL\\Services\\UserBL.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\Services\\UserBL.cs",
               "RelativeToolTip": "SimpleBL\\Services\\UserBL.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAuwA8AAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T16:39:26.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserDB.cs",
-              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\Interfaces\\IUserDB.cs",
-              "RelativeDocumentMoniker": "SimpleDL\\Interfaces\\IUserDB.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\Interfaces\\IUserDB.cs",
-              "RelativeToolTip": "SimpleDL\\Interfaces\\IUserDB.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAmwAwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:06:50.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "UserDB.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\Services\\UserDB.cs",
               "RelativeDocumentMoniker": "SimpleDL\\Services\\UserDB.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\Services\\UserDB.cs",
               "RelativeToolTip": "SimpleDL\\Services\\UserDB.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAnwBAAAAAfAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T17:07:00.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IndexBL.cs",
-              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\Services\\IndexBL.cs",
-              "RelativeDocumentMoniker": "SimpleBL\\Services\\IndexBL.cs",
-              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\Services\\IndexBL.cs",
-              "RelativeToolTip": "SimpleBL\\Services\\IndexBL.cs",
-              "ViewState": "AQIAAAUAAACAMzMzMzMmwA8AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:13:59.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\Program.cs",
               "RelativeDocumentMoniker": "SimpleApi\\Program.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\Program.cs",
               "RelativeToolTip": "SimpleApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T15:54:01.024Z"
+              "WhenOpened": "2024-05-05T15:54:01.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "IUserBL.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\Interfaces\\IUserBL.cs",
               "RelativeDocumentMoniker": "SimpleBL\\Interfaces\\IUserBL.cs",
@@ -253,28 +226,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SimpleApi\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "SimpleApi\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowCkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T15:54:41.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\appsettings.json",
               "RelativeDocumentMoniker": "SimpleApi\\appsettings.json",
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\appsettings.json",
               "RelativeToolTip": "SimpleApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-05T15:51:02.272Z"
+              "WhenOpened": "2024-05-05T15:51:02.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -284,25 +258,92 @@
               "RelativeDocumentMoniker": "SimpleDL\\EF\\Models\\User.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\EF\\Models\\User.cs",
               "RelativeToolTip": "SimpleDL\\EF\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T15:56:35.536Z"
+              "WhenOpened": "2024-05-19T15:56:35.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SerilogBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\SerilogBuilder.cs",
+              "RelativeDocumentMoniker": "SimpleApi\\SerilogBuilder.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\SerilogBuilder.cs",
+              "RelativeToolTip": "SimpleApi\\SerilogBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:36:14.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IndexBL.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\Services\\IndexBL.cs",
+              "RelativeDocumentMoniker": "SimpleBL\\Services\\IndexBL.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\Services\\IndexBL.cs",
+              "RelativeToolTip": "SimpleBL\\Services\\IndexBL.cs",
+              "ViewState": "AQIAAAUAAACAMzMzMzMmwA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T17:13:59.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserDB.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\Interfaces\\IUserDB.cs",
+              "RelativeDocumentMoniker": "SimpleDL\\Interfaces\\IUserDB.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\Interfaces\\IUserDB.cs",
+              "RelativeToolTip": "SimpleDL\\Interfaces\\IUserDB.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:06:50.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "SimpleContext.cs",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\EF\\Contexts\\SimpleContext.cs",
+              "RelativeDocumentMoniker": "SimpleDL\\EF\\Contexts\\SimpleContext.cs",
+              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\EF\\Contexts\\SimpleContext.cs",
+              "RelativeToolTip": "SimpleDL\\EF\\Contexts\\SimpleContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADgvxMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:53:45.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "scaffold.txt",
+              "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\scaffold.txt",
+              "RelativeDocumentMoniker": "SimpleApi\\scaffold.txt",
+              "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\scaffold.txt",
+              "RelativeToolTip": "SimpleApi\\scaffold.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-15T17:43:38.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AppSettings.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\AppSettings.cs",
               "RelativeDocumentMoniker": "SimpleEntites\\AppSettings.cs",
               "ToolTip": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleEntites\\AppSettings.cs",
               "RelativeToolTip": "SimpleEntites\\AppSettings.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T16:13:40.74Z"
+              "WhenOpened": "2024-05-15T16:13:40.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IIndexDB.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\Interfaces\\IIndexDB.cs",
               "RelativeDocumentMoniker": "SimpleDL\\Interfaces\\IIndexDB.cs",
@@ -310,11 +351,12 @@
               "RelativeToolTip": "SimpleDL\\Interfaces\\IIndexDB.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:07:34.176Z"
+              "WhenOpened": "2024-05-15T17:07:34.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "IndexDB.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleDL\\Services\\IndexDB.cs",
               "RelativeDocumentMoniker": "SimpleDL\\Services\\IndexDB.cs",
@@ -322,11 +364,12 @@
               "RelativeToolTip": "SimpleDL\\Services\\IndexDB.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T17:07:40.79Z"
+              "WhenOpened": "2024-05-15T17:07:40.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IIndexBL.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleBL\\Interfaces\\IIndexBL.cs",
               "RelativeDocumentMoniker": "SimpleBL\\Interfaces\\IIndexBL.cs",
@@ -334,11 +377,12 @@
               "RelativeToolTip": "SimpleBL\\Interfaces\\IIndexBL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:14:45.064Z"
+              "WhenOpened": "2024-05-07T17:14:45.064Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IndexController.cs",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\Controllers\\IndexController.cs",
               "RelativeDocumentMoniker": "SimpleApi\\Controllers\\IndexController.cs",
@@ -346,11 +390,12 @@
               "RelativeToolTip": "SimpleApi\\Controllers\\IndexController.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAQwCYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T17:07:51.86Z"
+              "WhenOpened": "2024-05-05T17:07:51.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ActionEndpointFactory.cs",
               "DocumentMoniker": "C:\\Users\\haima.000\\AppData\\Local\\Temp\\.vsdbgsrc\\846826d7c8de5cd89a7505402eb088eef25b7a110076fce4d96be74ca3bfd653\\ActionEndpointFactory.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\haima.000\\AppData\\Local\\Temp\\.vsdbgsrc\\846826d7c8de5cd89a7505402eb088eef25b7a110076fce4d96be74ca3bfd653\\ActionEndpointFactory.cs",
@@ -362,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "SimpleApi.csproj",
               "DocumentMoniker": "C:\\Users\\1\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05D7\u05D9\u05D9\u05DD\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\SimpleApi.csproj",
               "RelativeDocumentMoniker": "SimpleApi\\SimpleApi.csproj",
@@ -370,7 +415,8 @@
               "RelativeToolTip": "SimpleApi\\SimpleApi.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-07T16:41:07.26Z"
+              "WhenOpened": "2024-05-07T16:41:07.26Z",
+              "EditorCaption": ""
             }
           ]
         }
