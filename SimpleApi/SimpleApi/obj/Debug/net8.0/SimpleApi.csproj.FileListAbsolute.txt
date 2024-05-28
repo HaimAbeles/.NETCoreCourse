@@ -331,3 +331,4 @@ C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleApi\b
 C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleApi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
