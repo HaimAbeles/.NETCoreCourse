@@ -19,6 +19,7 @@ namespace SimpleBL.Services
         }
         public int GetIndex()
         {
+
             return 10;
         }
 

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using SimpleApi.Attributes;
 using SimpleBL.Interfaces;
 using SimpleDB.EF.Models;
 using SimpleEntites;
@@ -20,9 +21,11 @@ namespace SimpleApi.Controllers
             _usersBL = usersBL;
         }
 
+
+        [MyCustom]
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Login(UserLogin user)
+        public IActionResult Login(UserLoginDTO user)
         {
             try
             {

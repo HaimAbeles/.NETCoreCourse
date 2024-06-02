@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2gUSwr7hljr2Sh/teT5ir2hullWoPjMg551Ewryj7Zc0Y8dSwuZ6Q/eUEQq/MK6XqZYuA3eCxR9DQw8ei7s9ZQ==",
+  "dgSpecHash": "YWkE0mRZJhgDFwsUp6mBg6+3N/tFqUubbojR/h7rkMVhXhHzXp/a6ymKl0ObxY9rGmTyVSgtBGbgMDUoHwkzyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\1\\Desktop\\תכנות חיים\\.NET\\.NETCoreCourse\\SimpleApi\\SimpleApi\\SimpleApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\1\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

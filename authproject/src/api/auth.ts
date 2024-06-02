@@ -2,16 +2,16 @@ import axios from 'axios';
 
 const baseUrl = 'http://localhost:36196';
 
-export const login = async (username: string, password: string) => {
+export const login = async (name: string, password: string) => {
     return await axios.post(
         `${baseUrl}/api/users/login`,
-        { username, password },
+        { name, password },
         { withCredentials: true }
     );
 };
 
 export const getHeader = async () => {
-    return await axios.get(`${baseUrl}/api/home/getheader`, { withCredentials: true });
+    return await axios.post(`${baseUrl}/api/home/getheader`, { withCredentials: true });
 };
 
 export const logout = async () => {

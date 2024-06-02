@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
+using SimpleBL.Interfaces;
 using SimpleEntites;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -14,13 +15,15 @@ namespace SimpleApi.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IMemoryCache _memoryCache;
-        public HomeController(ILogger<HomeController> logger, IMemoryCache memoryCache)
+        private readonly IHomeBL _homeBL;
+        public HomeController(ILogger<HomeController> logger, IMemoryCache memoryCache, IHomeBL homeBL)
         {
             _logger = logger;
             _memoryCache = memoryCache;
+            _homeBL = homeBL;
         }
 
-        [HttpGet]
+        [HttpPost]
         public IActionResult GetHeader()
         {
             try
@@ -59,6 +62,22 @@ namespace SimpleApi.Controllers
             {
                 _logger.LogError($"Error on GetFooter, Message: {ex.Message}," +
                     $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+        }
+
+        [HttpGet]
+        public IActionResult GetAllPosts()
+        {
+            try
+            {
+                List<Post> posts = _homeBL.GetAllPosts();
+                return Ok(posts);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"Error on GetAllPosts, Message: {ex.Message}," +
+                                       $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
         }

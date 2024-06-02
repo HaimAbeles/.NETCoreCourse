@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using SimpleBL.Interfaces;
 using SimpleDB.EF.Models;
+using SimpleDB.Interfaces;
 using SimpleEntites;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -16,17 +18,24 @@ namespace SimpleBL.Services
         private readonly ILogger<UsersBL> _logger;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly AppSettings _appSettings;
-        public UsersBL(ILogger<UsersBL> logger, IHttpContextAccessor httpContextAccessor, IOptions<AppSettings> options)
+        private readonly IUsersDB _usersDB;
+        private readonly IMapper _mapper;
+        public UsersBL(ILogger<UsersBL> logger, IHttpContextAccessor httpContextAccessor,
+            IOptions<AppSettings> options, IUsersDB usersDB, IMapper mapper)
         {
             _logger = logger;
             _httpContextAccessor = httpContextAccessor;
             _appSettings = options.Value;
+            _usersDB = usersDB;
+            _mapper = mapper;
         }
-        public bool Login(UserLogin user)
+        public bool Login(UserLoginDTO userLoginDTO)
         {
-            if (user.UserName == "Brachi" && user.Password == "1234")
+            User userMapped = _mapper.Map<User>(userLoginDTO);
+            User userFromDb = _usersDB.Login(userMapped);
+            if (userFromDb is not null)
             {
-                CreateUserToken(user.UserName);
+                CreateUserToken(userFromDb.UserName);
                 return true;
             }
             return false;

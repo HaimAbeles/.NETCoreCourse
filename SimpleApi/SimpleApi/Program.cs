@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using SimpleApi;
 using SimpleBL.Interfaces;
 using SimpleBL.Services;
+using SimpleDB;
 using SimpleDB.EF.Contexts;
 using SimpleDB.Interfaces;
 using SimpleDB.Services;
@@ -24,10 +25,14 @@ AppSettings appSettings = builder.Configuration.Get<AppSettings>();
 builder.Services.AddScoped<IIndexBL, IndexBL>();
 builder.Services.AddScoped<IUserBL, UserBL>();
 builder.Services.AddScoped<IUsersBL, UsersBL>();
+builder.Services.AddScoped<IHomeBL, HomeBL>();
 builder.Services.AddScoped<IUserDB, UserDB>();
+builder.Services.AddScoped<IRestApiGW, RestApiGW>();
+builder.Services.AddScoped<IUsersDB, UsersDB>();
 builder.Services.AddScoped<IIndexDB, IndexDB>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddMemoryCache();
+builder.Services.AddAutoMapper(typeof(MapperManager));
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -81,6 +86,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseCors("CorsPolicy");
 
 app.UseAuthentication();

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace SimpleEntites
 {
-    public class UserLogin
+    public static class JsonplaceholderRelativeApiKeys
     {
-        public string UserName { get; set; }
-
-        public string Password { get; set; }
+        public readonly static string Posts = "/posts";
     }
 }

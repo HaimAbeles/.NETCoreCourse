@@ -10,6 +10,6 @@ namespace SimpleBL.Interfaces
 {
     public interface IUsersBL
     {
-        bool Login(UserLogin user);
+        bool Login(UserLoginDTO user);
     }
 }

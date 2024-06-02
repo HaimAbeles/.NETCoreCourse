@@ -10,6 +10,7 @@ namespace SimpleEntites
     {
         public Price Price { get; set; }
         public bool boolTest { get; set; }
+        public string jsonplaceholderApi { get; set; }
         public Jwt Jwt { get; set; }
         public ConnectionStrings ConnectionStrings { get; set; }
     }
