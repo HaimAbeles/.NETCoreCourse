@@ -25,7 +25,8 @@ namespace SimpleBL.Services
 
         public int GetMinPrice()
         {
-            return _appSettings.Price.min;
+            int minPrice = _appSettings.Price.min;
+            return minPrice;
         }
     }
 }

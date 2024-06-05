@@ -8,6 +8,6 @@ namespace SimpleEntites
 {
     public static class JsonplaceholderRelativeApiKeys
     {
-        public readonly static string Posts = "/posts";
+        public readonly static string Blogs = "/posts";
     }
 }

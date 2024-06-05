@@ -9,6 +9,7 @@ namespace SimpleBL.Interfaces
 {
     public interface IHomeBL
     {
-        List<Post> GetAllPosts();
+        string GetUserName();
+        List<Blog> GetAllPosts();
     }
 }

@@ -8,6 +8,18 @@ export const login = async (name: string, password: string) => {
         { name, password },
         { withCredentials: true }
     );
+
+    const req: Request;
+    const res: Response = await fetch(
+        `${baseUrl}/api/users/login`,
+        {
+            method: 'POST',
+            body: JSON.stringify({ name, password }),
+            headers: {
+                'Content-Type': 'applocation/json'
+            }
+        }
+    );
 };
 
 export const getHeader = async () => {

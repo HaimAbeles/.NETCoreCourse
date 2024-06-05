@@ -67,11 +67,27 @@ namespace SimpleApi.Controllers
         }
 
         [HttpGet]
+        public IActionResult GetUserName()
+        {
+            try
+            {
+                string userName = _homeBL.GetUserName();
+                return Ok(userName);
+            }
+            catch(Exception ex)
+            {
+                _logger.LogError($"Error on GetUserName, Message: {ex.Message}," +
+                                       $" InnerException: {ex.InnerException}, StackTrace: {ex.StackTrace}");
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+        }
+
+        [HttpGet]
         public IActionResult GetAllPosts()
         {
             try
             {
-                List<Post> posts = _homeBL.GetAllPosts();
+                List<Blog> posts = _homeBL.GetAllPosts();
                 return Ok(posts);
             }
             catch(Exception ex)

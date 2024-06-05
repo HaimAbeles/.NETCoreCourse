@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using SimpleApi;
+using SimpleApi.Middleware;
 using SimpleBL.Interfaces;
 using SimpleBL.Services;
 using SimpleDB;
@@ -31,6 +32,9 @@ builder.Services.AddScoped<IRestApiGW, RestApiGW>();
 builder.Services.AddScoped<IUsersDB, UsersDB>();
 builder.Services.AddScoped<IIndexDB, IndexDB>();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddHttpClient();
+builder.Services.AddSession();
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddMemoryCache();
 builder.Services.AddAutoMapper(typeof(MapperManager));
 
@@ -87,11 +91,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseCors("CorsPolicy");
+
+app.UseMyCustomMiddleware();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.UseSession();
 app.MapControllers();
 
 app.Run();

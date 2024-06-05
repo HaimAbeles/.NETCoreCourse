@@ -1,0 +1,7 @@
+2024-06-04 19:52:11.973 +03:00 [ERR] Error on Login, Message: Session has not been configured for this application or request., InnerException: , StackTrace:    at Microsoft.AspNetCore.Http.DefaultHttpContext.get_Session()
+   at SimpleBL.Services.UsersBL.Login(UserLoginDTO userLoginDTO) in C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleBL\Services\UsersBL.cs:line 40
+   at SimpleApi.Controllers.UsersController.Login(UserLoginDTO user) in C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleApi\Controllers\UsersController.cs:line 32
+2024-06-04 20:03:56.834 +03:00 [ERR] Error on GetUserName, Message: Value cannot be null. (Parameter 'bytes'), InnerException: , StackTrace:    at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetString(Byte[] bytes)
+   at SimpleBL.Services.HomeBL.GetUserName() in C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleBL\Services\HomeBL.cs:line 27
+   at SimpleApi.Controllers.HomeController.GetUserName() in C:\Users\1\Desktop\תכנות חיים\.NET\.NETCoreCourse\SimpleApi\SimpleApi\Controllers\HomeController.cs:line 74

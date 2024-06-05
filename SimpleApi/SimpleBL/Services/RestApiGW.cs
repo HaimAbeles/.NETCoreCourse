@@ -1,6 +1,8 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using SimpleBL.Interfaces;
 using SimpleEntites;
+using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 
@@ -9,14 +11,16 @@ namespace SimpleBL.Services
     public class RestApiGW : IRestApiGW
     {
         private readonly ILogger<RestApiGW> _logger;
-        public RestApiGW(ILogger<RestApiGW> logger)
+        private readonly IHttpClientFactory _httpClientFactory;
+        public RestApiGW(ILogger<RestApiGW> logger, IHttpClientFactory httpClientFactory)
         {
             _logger = logger;
+            _httpClientFactory = httpClientFactory;
         }
         public T ApiRequest<T>(ApiRequestModel apiRequestModel)
         {
             HttpResponseMessage response = new HttpResponseMessage();
-            using (HttpClient client = new HttpClient())
+            using (HttpClient client = _httpClientFactory.CreateClient())
             {
                 string stringJson;
                 HttpRequestMessage httpRequestMessage = new HttpRequestMessage();
@@ -26,9 +30,7 @@ namespace SimpleBL.Services
                 {
                     case EHttpRequestType.POST:
                         httpRequestMessage.Method = HttpMethod.Post;
-                        JsonSerializerOptions jso = new JsonSerializerOptions();
-                        jso.Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping;
-                        stringJson = JsonSerializer.Serialize(apiRequestModel.data, jso);
+                        stringJson = JsonSerializer.Serialize(apiRequestModel.data);
                         httpRequestMessage.Content = new StringContent(stringJson, Encoding.UTF8, "application/json");
                         break;
 
@@ -37,11 +39,11 @@ namespace SimpleBL.Services
                         break;
                 }
                 response = client.SendAsync(httpRequestMessage).Result;
-                return GetModelFromResponse<T>(apiRequestModel, response, apiRequestModel.baseUrl, apiRequestModel.relativeUrl);
+                return GetModelFromResponse<T>(apiRequestModel, response);
             }
         }
 
-        private T GetModelFromResponse<T>(ApiRequestModel apiRequestModel, HttpResponseMessage responseMessage, string baseUrl, string relativeUrl)
+        private T GetModelFromResponse<T>(ApiRequestModel apiRequestModel, HttpResponseMessage responseMessage)
         {
             string responseBody = responseMessage.Content.ReadAsStringAsync().Result;
             try
@@ -49,12 +51,12 @@ namespace SimpleBL.Services
                 responseMessage.EnsureSuccessStatusCode();
                 T jsonData = JsonSerializer.Deserialize<T>(responseBody);
                 if (jsonData == null)
-                    _logger.LogError($"Failed on response from Pulseem service in url: {baseUrl + relativeUrl}, Body is null FullResponseBody: {responseBody}");
+                    _logger.LogError($"Failed on response from Pulseem service in url: {apiRequestModel.baseUrl + apiRequestModel.relativeUrl}, Body is null FullResponseBody: {responseBody}");
                 return jsonData;
             }
             catch (HttpRequestException e)
             {
-                _logger.LogError($"Failed on HttpClient in url: {baseUrl + relativeUrl}, to connect pulseem service, Message: {e.Message}, FullResponseBody: {responseBody} StackTrace: {e.StackTrace}, ex: {e}");
+                _logger.LogError($"Failed on HttpClient in url: {apiRequestModel.baseUrl + apiRequestModel.relativeUrl}, to connect pulseem service, Message: {e.Message}, FullResponseBody: {responseBody} StackTrace: {e.StackTrace}, ex: {e}");
                 return default;
             }
         }

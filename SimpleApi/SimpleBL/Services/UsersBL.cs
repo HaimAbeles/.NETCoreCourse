@@ -36,6 +36,8 @@ namespace SimpleBL.Services
             if (userFromDb is not null)
             {
                 CreateUserToken(userFromDb.UserName);
+                byte[] bytearray = Encoding.ASCII.GetBytes(userFromDb.UserName);
+                _httpContextAccessor.HttpContext.Session.Set("username", bytearray);
                 return true;
             }
             return false;
