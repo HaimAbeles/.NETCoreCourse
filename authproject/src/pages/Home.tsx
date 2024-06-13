@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getHeader, logout } from '../api/auth';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import Chat from './Chat';
 
 const Home: React.FC = () => {
     const [header, setHeader] = useState('');
@@ -29,6 +30,7 @@ const Home: React.FC = () => {
 
     return <>
     <h1>{header}</h1>
+    <Chat />
     <button onClick={handleLogout}>התנתקות</button>
     </>;
 };

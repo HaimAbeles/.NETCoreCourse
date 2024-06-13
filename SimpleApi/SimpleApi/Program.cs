@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using SimpleApi;
+using SimpleApi.Hubs;
 using SimpleApi.Middleware;
 using SimpleBL.Interfaces;
 using SimpleBL.Services;
@@ -37,6 +38,7 @@ builder.Services.AddSession();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddMemoryCache();
 builder.Services.AddAutoMapper(typeof(MapperManager));
+builder.Services.AddSignalR();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
@@ -101,5 +103,6 @@ app.UseAuthorization();
 
 app.UseSession();
 app.MapControllers();
+app.MapHub<ChatHub>("/chatHub");
 
 app.Run();

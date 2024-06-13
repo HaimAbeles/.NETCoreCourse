@@ -19,6 +19,7 @@ const Login: React.FC = () => {
         e.preventDefault();
         try {
             await login(username, password);
+            sessionStorage.setItem('userName', username);
             setIsAuthenticated(true);
         } catch (error) {
             alert('Invalid credentials');
